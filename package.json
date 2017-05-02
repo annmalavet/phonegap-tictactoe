@@ -1,0 +1,23 @@
+{
+  "name": "boggleish",
+  "version": "1.0.1",
+  "description": "Phonegap wrapper",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annmalavet/phonegap-version.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annmalavet/phonegap-version/issues"
+  },
+  "homepage": "https://github.com/annmalavet/phonegap-version#readme"
+}
