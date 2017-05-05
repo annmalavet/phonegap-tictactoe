@@ -4,8 +4,8 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         xmlns:android   = "http://schemas.android.com/apk/res/android"
         id          = "com.gamingplatform.boggle"
-        versionCode = "1"
-        version     = "1.0.0" >
+        versionCode = "2"
+        version     = "1.0" >
     <!-- versionCode is optional and Android only:
       needs to be increased every time you submit a new APK version.
       see: http://developer.android.com/tools/publishing/versioning.html
@@ -15,7 +15,7 @@
     </gap:config-file>
 
     <content src="https://smoggle.us/?phonegapPlugins=v105" />
-    
+
     <name>Boggle</name>
     <author email="ann@Nyu.edu">
         ann@Nyu.edu
@@ -124,7 +124,7 @@
         <string>This app uses your bluetooth</string>
     </config-file>
 
-    <!-- see: https://www.npmjs.com/package/cordova-plugin-facebook4 ; 
+    <!-- see: https://www.npmjs.com/package/cordova-plugin-facebook4 ;
       using specific git version due to this: http://community.phonegap.com/nitobi/topics/sudden-build-error-android
       gap:plugin spec="https://github.com/jeduan/cordova-plugin-facebook4#aff9a08a86cc6c6a18019f7adc2896ddf97c11cd" source="git" -->
     <gap:plugin name="cordova-plugin-facebook4" source="npm" spec="1.7.4">
@@ -160,7 +160,7 @@
         <allow-intent href="itms-apps:*" />
     </platform>
 
-    <!-- To allow easy social sharing using native intents. 
+    <!-- To allow easy social sharing using native intents.
       Plugin adds WRITE_EXTERNAL_STORAGE permission, which we don't need, so I remove it below.
       https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin
       https://www.npmjs.com/package/cordova-plugin-x-socialsharing -->
@@ -189,7 +189,5 @@
     We currently use AdMob pro with mediation to FB ads:
     https://github.com/floatinghotpot/cordova-admob-pro
      -->
-    <gap:plugin name="cordova-plugin-admobpro" source="npm" spec="2.28.3" />
-    <gap:plugin name="cordova-plugin-admob-facebook" source="npm" spec="1.0.3" />
-    
+
 </widget>
